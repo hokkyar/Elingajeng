@@ -82,6 +82,11 @@ body {
 
 .card {
   border: none;
+  transition: .3s;
+}
+
+.card:hover {
+  scale: 1.03;
 }
 
 /* //MENU */
