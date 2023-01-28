@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#preloader {
+  display: flex;
+}
+
+header .jumbotron {
+  height: 100vh;
+  background: url('../img/bg-header.png');
+  background-size: cover;
+  cursor: default;
+}
+
+header h1 {
+  color: #658116;
+}
+
+.box-title {
+  background-color: rgb(230, 230, 231);
+  opacity: .8;
+}
+
+#brunch,
+#contact {
+  background-color: rgb(42, 59, 64);
+}
+
+#menu {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(52, 72, 128, 0.6)), url('../img/bg-header.png');
+  background-position: center;
+}
+
+#sehat,
+#penyedia {
+  background-color: rgb(212, 216, 217);
+}
+
+.penyedia-container {
+  height: 300px;
+  background-image: url('../img/bg-penyedia.png');
+  background-size: cover;
+  background-position: .5px;
+}
+
+@media(max-width: 800px) {
+
+  #brunch .row,
+  #sehat .row {
+    flex-direction: column;
+  }
+}
+
+@media(max-width: 817px) {
+
+  #contact .row {
+    flex-direction: column;
+  }
+
+  /* #contact .row .col {
+    width: 100%;
+  } */
+}
