@@ -1,10 +1,10 @@
-// $(document).ready(function () {
-//   $(".wrapper").css("display", "none")
-//   setTimeout(() => {
-//     $(".wrapper").css("display", "block")
-//     $("#preloader").css("display", "none")
-//   }, 1200)
-// })
+$(document).ready(function () {
+  $(".wrapper").css("display", "none")
+  setTimeout(() => {
+    $(".wrapper").css("display", "block")
+    $("#preloader").css("display", "none")
+  }, 1200)
+})
 
 $(window).scroll(function () {
   if ($(document).scrollTop() > 55) {

@@ -59,8 +59,4 @@ header h1 {
   #contact .row {
     flex-direction: column;
   }
-
-  /* #contact .row .col {
-    width: 100%;
-  } */
 }
